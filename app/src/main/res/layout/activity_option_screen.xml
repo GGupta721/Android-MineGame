@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/option_bg"
+    tools:context=".OptionScreen">
+
+    <TextView
+        android:id="@+id/boardText2"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/board_size"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numberMinesText"
+        android:layout_width="245dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/number_of_treasures"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/boardText2"
+        app:layout_constraintTop_toTopOf="@+id/boardText2" />
+
+    <Button
+        android:id="@+id/erasebtn"
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/btn_shape"
+        android:text="@string/erase_times_played"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_mines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/numberMinesText"
+        app:layout_constraintStart_toStartOf="@+id/numberMinesText"
+        app:layout_constraintTop_toBottomOf="@+id/numberMinesText" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_board_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/boardText2"
+        app:layout_constraintStart_toStartOf="@+id/boardText2"
+        app:layout_constraintTop_toBottomOf="@+id/boardText2" />
+
+    <TextView
+        android:id="@+id/setting_text"
+        android:layout_width="186dp"
+        android:layout_height="95dp"
+        android:fontFamily="@font/font"
+        android:gravity="center_horizontal"
+        android:text="@string/settings"
+        android:textColor="#FFFFFF"
+        android:textSize="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:text="@string/textview"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/erasebtn"
+        app:layout_constraintEnd_toStartOf="@+id/erasebtn"
+        app:layout_constraintTop_toTopOf="@+id/erasebtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

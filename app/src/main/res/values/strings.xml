@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Treasure Hunter</string>
+    <string name="author_information"><a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home">Original Author Information</a></string>
+    <string name="chests">"%1$d chests"</string>
+    <string name="congratulations_message">Congratulations you found all the tresure</string>
+    <string name="game_teaching"><u>Game Teaching  </u></string>
+    <string name="game_explaination">
+        The goal of the game is to find all the treasures on the cell map.On the game board, the cell will display the treasure if you select the correct cell.
+        You can scan the number of treasures on the column and the row by selecting the cell without the treasure or selecting the cell with the revealed treasure.You can set up the board size and erase the number of times played in Options.
+        The background images used are from the free image source: \n
+        https://www.pexels.com\n
+        https://www.zapsplat.com\n
+        This game is designed by Alex and Gaurav.
+
+    </string>
+    <string name="are_you_sure_to_reset_the_times_of_play_to_0">Are you sure to reset the times of play to 0</string>
+    <string name="warning">warning</string>
+    <string name="board_size">Board Size</string>
+    <string name="settings">Settings</string>
+    <string name="textview">TextView</string>
+    <string name="number_of_treasures">Number of treasures</string>
+    <string name="erase_times_played">Erase times played</string>
+
+</resources>
